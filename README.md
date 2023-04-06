@@ -1,6 +1,6 @@
-# NFT.boats
+# NFT Discord Bot
 
-Home of the Hardhat project for the NFT.boats project
+Home of the NFT Discord Bot
 
 # Getting Started
 
@@ -28,11 +28,12 @@ yarn
 
 1. Setup environment variabltes
 
-You'll want to set your `RINKEBY_RPC_URL` and `PRIVATE_KEY` as environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`.
+You'll want to set your `TOKEN`, `GUILD_ID`, `CLIENT_ID` and `OPENSEA_KEY` and as environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`.
 
--   `PRIVATE_KEY`: The private key of your account (like from [metamask](https://metamask.io/)). **NOTE:** FOR DEVELOPMENT, PLEASE USE A KEY THAT DOESN'T HAVE ANY REAL FUNDS ASSOCIATED WITH IT.
-    -   You can [learn how to export it here](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
--   `RINKEBY_RPC_URL`: This is url of the rinkeby testnet node you're working with. You can get setup with one for free from [Alchemy](https://alchemy.com/?a=673c802981)
+-   `TOKEN`: The token associated with your discord bot that you have created at https://discord.com/developers/applications
+-   `GUILD_ID`: The Guild ID of your discord Server
+-   `CLIENT_ID`: The client ID of your discord bot. Found by right clicking on your bot icon in discord
+-   `OPENSEA_KEY`: Your Opensea API Key
 
 2. Run the Code
 
@@ -41,16 +42,6 @@ node src/index.js
 ```
 
 # Deployment to a testnet or mainnet
-
-1. Setup environment variabltes
-
-You'll want to set your `RINKEBY_RPC_URL` and `PRIVATE_KEY` as environment variables. You can add them to a `.env` file, similar to what you see in `.env.example`.
-
--   `TOKEN`: The token associated with your discord bot that you have created at https://discord.com/developers/applications
-    -   You can [learn how to export it here](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
--   `GUILD_ID`: The Guild ID of your discord Server
--   `CLIENT_ID`: The client ID of your discord bot. Found by right clicking on your bot icon in discord
--   `OPENSEA_KEY`: Your Opensea API Key
 
 # Thank you!
 
